@@ -86,25 +86,32 @@ section {
 }
 
 .intro {
-  height: 90vh;
+  height: 80vh;
     background-color: #FFDE8D;
+    padding-top: 25px;
+    padding-bottom:25px;
 }
 
 .second {
-  height: 80vh;
+  height: 60vh;
     background-color: #F05133;
-    background-image: url(images/carouselpict1.png)
-       background-repeat: no-repeat; 
+    background-repeat: no-repeat; 
+     padding-top: 25px;
+    padding-bottom:25px;
 }
 
 .third {
   height: 50vh;
     background-color: #fff;
+     padding-top: 25px;
+    padding-bottom:25px;
 }
 
 .forth {
   height: 50vh;
-    background-color: #F05133;
+    background-color: #A23200;
+     padding-top: 25px;
+    padding-bottom:25px;
 }
 
 .fifth {
@@ -114,10 +121,31 @@ section {
 .content {
   display: table-cell;
   vertical-align: middle;
+    flex-wrap: wrap;
 }
 
+.clcontent
+{  display: flex;
+  vertical-align: middle;
+    flex-wrap: wrap;
+}
+
+
+/*creating the topic cloud images on the home page*/
+.cloudtopics{
+    display:flex;
+    background-image:url(images/topics/cloud.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    width: 20vw;
+    height:10vw;
+    justify-content: center;
+    align-items: center;
+    
+}
 h1 {
-  font-size: 3em;
+  font-size: background-repeat: 
   display: block;
    font-weight: 300;
 }
@@ -212,3 +240,57 @@ width:auto;}
     color: #fff;
     font-family: 'PT Serif', serif;
 }
+
+/*styling for the overlay images from w3schools https://www.w3schools.com/css/tryit.asp?filename=trycss_css_image_overlay_fade mdn flexbox */
+
+h1 {font-size: 4em;
+    color: #8F2323;
+    font-family: 'PT Serif', serif;}
+
+.container {
+  position: relative;
+  width: 70%;
+}
+
+.image {
+ width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+.thisweekbooks{
+    display:flex;
+}
+
+ h1 {font-size: 2.5em;
+    color: #8F2323;
+    font-family: 'PT Serif', serif;}
+
+
