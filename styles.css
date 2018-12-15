@@ -1,0 +1,214 @@
+/*navbar*/
+
+/* cutomize navbar*//
+.navbar {
+    display: flex;
+}
+.navbar-custom {
+    background-color: #ff5500;
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+      color: #F05133;
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+       color: #8F2323;
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #F05133;
+}
+
+.nav-item {
+    margin-right: 10px;
+    font-size: 15pt;
+    font-family: 'PT Serif', serif;
+
+}
+
+
+.logo {width: 80%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.ournav{
+    float: right;
+    padding-right: 50px;
+}
+
+.img-fluid{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+
+
+
+.navbar-light .navbar-brand {
+    color:#168299;
+    text-decoration: none;
+    text-align: right;
+
+}
+
+
+/*section*/
+* {
+  box-sizing: border-box; 
+}
+
+body {
+  margin: 0; 
+  font-weight: 500;
+  font-family: 'HelveticaNeue';
+}
+
+section {
+  width: 100%;
+  padding: 0 7%;
+  display: table;
+  margin: 0;
+  max-width: none;
+  background-color: #373B44;
+  height: 100vh;
+  
+
+}
+
+.intro {
+  height: 90vh;
+    background-color: #FFDE8D;
+}
+
+.second {
+  height: 80vh;
+    background-color: #F05133;
+    background-image: url(images/carouselpict1.png)
+       background-repeat: no-repeat; 
+}
+
+.third {
+  height: 50vh;
+    background-color: #fff;
+}
+
+.forth {
+  height: 50vh;
+    background-color: #F05133;
+}
+
+.fifth {
+  height: 50vh;
+    background-color: #fff;
+}
+.content {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+h1 {
+  font-size: 3em;
+  display: block;
+   font-weight: 300;
+}
+
+p {
+  font-size: 1.5em;
+  font-weight: 500;
+  
+}
+
+a {
+  font-weight: 700;
+  color: #373B44;
+  position: relative;
+  
+  &:hover{ 
+    opacity: 0.8;
+  }
+  
+  &:active {
+    top: 1px;
+  }
+}
+
+footer {
+  padding: 1% 5%;
+  text-align:center;
+  background-color: #373B44;
+  color: white;
+  
+  a {
+    color: #FE4B74;
+    font-weight: 500;
+    text-decoration: none;
+  }
+}
+/*section*/
+
+/* css grid card for first images*/
+
+* {
+    box-sizing: border-box;
+}
+body {
+    font-size: 1rem;
+    line-height: 1.5;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin: 0;
+}
+a {
+    color: #278da4;
+    text-decoration: none;
+}
+p {
+    margin-bottom: 1.25em;
+}
+.main-content {
+    margin: 2em auto;
+}
+.card {
+    padding: 1.5em 1em;
+    border: 1px solid #F05133;
+    border-radius: 0.25em;
+}
+
+.btn {
+    font-size: 0.85em;
+    color: #F05133;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0.75em 1.5em;
+    background-color: #39abcd;
+    border-radius: 0.35em;
+    display: block;
+}
+
+card-img-top{
+height:800px
+width:auto;}
+
+/* carousel slogans home page- fonts taken from google fonts - reference to w3schools  https://www.w3schools.com/css/css_text.asp*/
+
+.htext{
+  font-size: 4em;
+    color: #fff;
+    font-family: 'PT Serif', serif;
+}
+
+.ptext{
+  font-size: 2em;
+    color: #fff;
+    font-family: 'PT Serif', serif;
+}
